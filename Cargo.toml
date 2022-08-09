@@ -13,11 +13,11 @@ log = ">=0.4.6"
 vhost = { git = "https://github.com/vireshk/vhost", features = ["vhost-user-slave"] }
 virtio-bindings = "0.1"
 virtio-queue = { git = "https://github.com/vireshk/vm-virtio" }
-vm-memory = { git = "https://github.com/vireshk/vm-memory", features=["backend-mmap", "backend-atomic"] }
+vm-memory = { git = "https://github.com/rust-vmm/vm-memory", features=["backend-mmap", "backend-atomic"] }
 vmm-sys-util = "0.9"
 
 [dev-dependencies]
 nix = "0.23"
 vhost = { git = "https://github.com/vireshk/vhost", features = ["vhost-user-slave"] }
-vm-memory = { git = "https://github.com/vireshk/vm-memory", features=["backend-mmap", "backend-atomic", "backend-bitmap"] }
+vm-memory = { git = "https://github.com/rust-vmm/vm-memory", features=["backend-mmap", "backend-atomic", "backend-bitmap"] }
 tempfile = "3.2.0"
