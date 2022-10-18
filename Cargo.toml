@@ -7,6 +7,9 @@ description = "A framework to build vhost-user backend service daemon"
 edition = "2018"
 license = "Apache-2.0"
 
+[badges]
+maintenance = { status = "deprecated" }
+
 [dependencies]
 libc = "0.2.39"
 log = "0.4.17"
