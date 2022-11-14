@@ -14,7 +14,7 @@ vhost = { git = "https://github.com/vireshk/vhost", features = ["vhost-user-slav
 virtio-bindings = "0.1"
 virtio-queue = { git = "https://github.com/vireshk/vm-virtio" }
 vm-memory = { git = "https://github.com/rust-vmm/vm-memory", features=["backend-mmap", "backend-atomic"] }
-vmm-sys-util = "0.10"
+vmm-sys-util = "0.11"
 
 [dev-dependencies]
 nix = "0.24"
