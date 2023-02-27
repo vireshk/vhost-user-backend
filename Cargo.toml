@@ -11,7 +11,7 @@ license = "Apache-2.0"
 libc = ">=0.2.39"
 log = ">=0.4.6"
 vhost = { git = "https://github.com/vireshk/vhost", features = ["vhost-user-slave"] }
-virtio-bindings = "0.1"
+virtio-bindings = "0.2"
 virtio-queue = { git = "https://github.com/vireshk/vm-virtio" }
 vm-memory = { git = "https://github.com/rust-vmm/vm-memory", features=["backend-mmap", "backend-atomic"] }
 vmm-sys-util = "0.10"
